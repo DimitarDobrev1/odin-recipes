@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(91, 216, 91);
+}
+
+h1 {
+    text-align: left;
+    background-color:rgb(25, 141, 68);
+    margin: 0 -10px;
+    padding: 10px;
+    color:whitesmoke;
+}
+
+a {
+    color: rgb(16, 106, 49);
+    font-weight: bold;
+    font-size:large;
+}
+
+li::marker {
+  content: "➔  ";  
+  color: whitesmoke; 
+}
+
+li {
+    padding: 3px;
+}
+
+img {
+    display: inline;
+    border-radius: 5%;
+    margin: 10px;
+}
